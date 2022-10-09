@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(255, 235, 235);
+}
+/* NAVBAR */
+.nv-bar{
+    position: fixed;
+    margin: 1% 4%;
+    position: relative;
+    padding: 0 3rem;
+    background-color: #ecc9c9 !important;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.nv-logo{
+    position: relative;
+    font-family: 'Alkalami', serif;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.n-bar{
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.nv-link{
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+}
+
+.nv-b{
+    height: 4rem;
+}
+
+/* CONTAINER 0 */
+.container0{
+    margin-top: 100px;
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.cont01{
+    width: 50%;
+    margin-bottom: 90px;
+}
+
+.cont02{
+    padding-left: 50px;
+}
+.cont021{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.cont22, .cont23{
+    margin-left: 150px;
+}
+
+.num{
+    padding-top:10px ;
+    text-align: center;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    background-color: #3D0000;
+    border-radius: 50%;
+    color: white;
+}
+
+/* CONTAINER 1 */
+.container1{
+    margin-top: -6rem;
+    background-image: url(WIB_webinar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    height:800px
+}
+.container1-1{
+    background-color: rgba(70, 48, 43,0.7);
+    height: 800px;
+}
+.cont{
+    color: #fff;
+}
+
+.des{
+    text-align: center;
+    font-size: 3.5rem !important;
+    color: rgb(255, 254, 253);
+    position: relative;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+.des1{
+    position: relative;
+    line-height: 1;
+    font-size: 2rem;
+    width: 70%;
+    line-height: 1.3;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+
+.left1{
+    margin-top: 15%;
+}
+
+/* CONTAINER 2 */
+.container2{
+    margin-top: 100px;
+}
+.cont2head{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.eww{
+    width: 150px;
+    height: 150px;
+}
+.catdes{
+    color: rgb(0, 0, 0);
+    text-decoration: none !important;
+    margin-top: 15px;
+}
+.r1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.r2{
+    margin-top: 100px;
+}
+
+/* CONTAINER  3*/
+
+.container3{
+    margin-top: 100px;
+}
+
+.d-block{
+    position: relative;
+    width: 50% !important;  
+    left: 50%;
+    transform: translate(-50%, 0) !important; 
+    border-radius: 50px;
+}
+
+.d-block{
+    height: 600px !important;
+}
+
+.cont3head{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/* footer */
+footer{
+    display: flex !important;
+    justify-content: center;
+    border-top: 1px solid rgb(222, 175, 175);
+}
+
+.logo{
+    width: 40px;
+}
+.social-media ul li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.social-media ul{
+    margin-top: 20px;
+    position: relative;
+    left: -10px
+}
+
+.fl, .fr{
+    padding-top: 120px;
+}
+.fm{
+    text-align: center;
+}
+.fm img{
+    width: 75%;
+}
